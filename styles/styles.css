@@ -1,11 +1,19 @@
+ion-icon {
+    color: white;
+    font-size: 32px;
+}
+
 .nav-bar {
-    font-family: Arial;
+    font-family: "Helvetica Neue";
     font-size: 20px;
-    color: black;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+
 }
 
 .links {
-    font-family: Arial;
+    font-family: "Poppins";
     font-size: 20px;
     color: rgb(96, 96, 96);
 }
