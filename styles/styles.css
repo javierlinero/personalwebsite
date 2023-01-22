@@ -1,25 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
 ion-icon {
+    font-size: 24px;
+}
+
+body {
+    background-image: url("vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    display: flex;
+    padding-block: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+
+.navbar-brand {
     color: white;
-    font-size: 32px;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    
 }
 
-.nav-bar {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
     color: white;
-    margin-top: 10px;
-    background-color: black;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    background-color: #555;
 
 }
 
-.links {
-    font-family: "Poppins";
-    font-size: 20px;
-    color: rgb(96, 96, 96);
+.toggle {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
 }
 
-.icon {
-    width: 30px;
-    height: 30px;
-    position: relative;
+@media (max-width: 600px) {
+   .toggle {
+    display: flex;
+   }
+
+   .navbar-links {
+    display: none;
+   }
+
 }
