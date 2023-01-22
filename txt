@@ -1,0 +1,40 @@
+ion-icon {
+    color: white;
+    font-size: 32px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-bar {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    background-color: black;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+
+}
+
+li a {
+    display: inline-block;
+}
