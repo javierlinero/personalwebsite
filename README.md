@@ -1,3 +1,3 @@
 # personalwebsite
 
-My personal website, learning HTML, CSS w/ bootstrap and Javascript (React)
+My personal website, learning HTML, CSS w/ flexbox and Javascript (react routing)
