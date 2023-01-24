@@ -15,7 +15,7 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
-    
+    overflow: hidden;
 }
 
 main {
@@ -45,6 +45,35 @@ main p {
 
 main a {
     text-decoration: none;
+}
+
+td  {
+    padding-left: 10px;
+}
+
+th a {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+th a:hover {
+    color: rgb(156, 156, 156);
+}
+
+
+#proj {
+    display: flex;
+    height: calc(100vh - 62px);
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.projects {
+    background-color:rgb(51,51,51, 0.4);
+    border-radius: 50px;
+    margin: 10px;
 }
 
 .bttn {
@@ -204,10 +233,28 @@ main a {
 
    .introduction {
     position:absolute;
-    top: 30%;
+    top: 20%;
     left: 20%;
     
    }
    
+   .bttn {
+    padding: 10px;
+   }
+
 }
+
+@media (max-width: 560px) {
+    iframe {
+        width: 340px;
+        height: 190px;
+        padding-left: 25px;
+    }
+
+    main h3 {
+        font-size: 4vw;
+        padding-left: 20px;
+    }
+}
+
 
